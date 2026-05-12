@@ -78,11 +78,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Ruriiie Stationery — Cozy Pastel Stationery Studio" },
       { name: "description", content: "Aesthetic pastel stationery: pens, notebooks, art supplies and pencil cases curated for cozy creativity." },
       { name: "author", content: "Ruriiie Stationery" },
-      { property: "og:title", content: "Ruriiie Stationery" },
-      { property: "og:description", content: "Cozy pastel stationery for everyday joy." },
+      { property: "og:title", content: "Ruriiie Stationery — Cozy Pastel Stationery Studio" },
+      { property: "og:description", content: "Aesthetic pastel stationery: pens, notebooks, art supplies and pencil cases curated for cozy creativity." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Ruriiie Stationery — Cozy Pastel Stationery Studio" },
+      { name: "twitter:description", content: "Aesthetic pastel stationery: pens, notebooks, art supplies and pencil cases curated for cozy creativity." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fa71822d-7e7d-43b1-826f-546695ab7c55/id-preview-28fc37df--14e13587-162f-49fa-947d-91239f12518c.lovable.app-1778595281160.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fa71822d-7e7d-43b1-826f-546695ab7c55/id-preview-28fc37df--14e13587-162f-49fa-947d-91239f12518c.lovable.app-1778595281160.png" },
     ],
     links: [
       {
